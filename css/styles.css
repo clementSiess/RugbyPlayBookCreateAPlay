@@ -1,0 +1,188 @@
+* {
+	margin: 0;
+	padding: 0;
+	border: 0 none;
+	font-weight: normal;
+	font-style: normal;
+	text-decoration: none;
+	outline-style: none;
+}
+
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+body { 
+    margin-bottom: 60px;
+    padding-bottom: 50px;
+    padding-top: 50px;
+    background-image: url("../images/turf.jpg");
+}
+
+.about {
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.starter-template {
+    background-color: #FFFFFF;
+    padding: 40px 15px;
+    text-align: center;
+    box-shadow: 2px -2px 2px #000,
+            -2px 2px 2px #000;
+}
+
+#videofrm {
+    box-shadow: 3px 3px 7px grey;
+}
+
+.video-container {
+	position: relative;
+	padding-bottom: 56.25%;
+	padding-top: 30px;
+	height: 0;
+	overflow: hidden;
+}
+
+.video-container iframe, .video-container object, .video-container embed {
+	position: absolute;
+	left: 0;
+	top: 0;
+	height: 100%;
+	width: 100%;
+}
+
+.youtubevideowrap {
+    display: block;
+    margin: 0 auto;
+    width: 70%;
+    max-height: 640px;
+    box-shadow: 3px 3px 7px grey;
+}
+
+#containingBlock {
+    width:50%;
+}
+
+#logo{
+    color: white;
+    font-family: "Impact", "Charcoal", "sans-serif";
+    font-size: 30px;
+    letter-spacing: 1px;
+    text-shadow: 2px 1px 1px #000000;
+    vertical-align: middle;
+}
+
+#leftAlign {
+    text-align: left;
+}
+
+#rightAlign {
+    text-align: right;
+}
+
+#nav {
+    color: white;
+}
+
+#navbar2 {
+    background-color: #6D9125;
+}
+
+#navbar li a {
+    color: #FFFFFF;
+    position: relative;
+}
+  
+#navbar li a:hover {
+    color: #FFFFFF;
+    background-color: #000000;
+}
+
+.container .text-muted {
+    color: #FFFFFF;
+    margin: 20px 0;
+}
+
+footer {
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.footer {
+    color: #FFFFFF;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 60px;
+    background-color: #000;
+}
+
+<<<<<<< HEAD
+#signupButton {
+    width: 25%;
+    background-color: #6D9125;
+    
+}
+
+#signInButton{
+    width: 25%;
+    background-color: #6D9125;
+}
+
+.form-container{
+    padding: 5%;
+    background-color: white;
+}
+
+#scoreImg {
+    height: 25%;
+    width: 55%;
+}
+
+#tackleImg {
+    height: 55%;
+    width: 55%;
+}
+
+/*.content_container_250 {*/
+/*    background-color: #D6D6D6;*/
+/*    padding: 10px 10px 10px 10px;*/
+/*    height: 250px;*/
+/*    text-align: center;*/
+
+.content_container_250 {
+    display: inline-block;
+    height: auto;
+    width: auto;
+    padding: 10px 10px 10px 10px;
+    text-align: center;
+
+}
+
+.content_container {
+    display: inline-block;
+    height: auto;
+    width: auto;
+    padding: 10px 10px 10px 10px;
+    text-align: center;
+    
+}
+
+.aboutIMG{
+    height: 225px;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+
+.ballIMG {
+    height: 150px;
+    padding-right: 10px;
+}
+
+#button {
+    background-color: #6D9125;
+    border-color: #6D9125;
+}
